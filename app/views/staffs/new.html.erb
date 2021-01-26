@@ -1,0 +1,27 @@
+  <div class="container">
+    <h3>投稿する</h3>
+    <%= form_with(model: @staff, local: true) do |form| %>
+      <div class="f_genbaname">
+        <%= form.text_field :genba_name, 　size: 30 % ,placeholder: "現場名",　size: 30% %>
+      </div>
+      <div class="ken">
+        <%= form.text_field :prefecture_id, placeholder: "現場都道府県" %>
+      </div>
+        <div class="shi">
+         <%= form.text_field :adress, placeholder: "現場市町村", rows: "10" %>
+        </div>
+        <div class="f_shoksuhu">
+         <%= form.text_field :shokushu, placeholder: "業務内容", rows: "10" %>
+        </div>
+        <div class="f_hyouka">
+         <%= form.text_field :hyouka, placeholder: "評価", rows: "10" %>
+        </div>
+         <div class="naiyou">
+         <%= form.text_area :text, placeholder: "レビュー内容", rows: "10" %>
+        </div>
+        <div class="soushin">
+         <%= form.submit "SEND" %>
+        </div>
+    <% end %>
+ 
+</div>

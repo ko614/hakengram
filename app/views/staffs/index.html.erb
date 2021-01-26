@@ -1,0 +1,31 @@
+<div class="contents row">
+  <% @staffs.each do |staff| %>
+    <div class="box13">
+      <div class="content_post" >
+      
+        <div class="shousai">
+          <div class="genba">
+            <p class="kanji">現場名</p>
+            <p class="g_date"><%= staff.genba_name %></p>
+          </div>
+          <div class="prefecture_id">
+            <p class="kanji">現場所在地</p>
+            <p class="kenmei"><%= staff.prefecture_id %></p>
+            <p class="shimei"><%= staff.adress %></p>
+          </div>
+          <div class="gyoumu">
+            <p class="kanji">業務内容</p>
+            <p class="date4"><%= staff.shokushu %></p>
+          </div>
+          <div class="hyouka">
+            <p class="kanji">評価</p>
+            <p class="date5"><%= staff.hyouka %></p>
+          </div>
+          
+
+          <p><%= staff.text %></p>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

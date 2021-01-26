@@ -1,0 +1,191 @@
+.header {
+  font-family: 'Corben', cursive;
+}
+  
+
+
+
+.body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.grid-6{
+  text-align: center;
+  
+}
+/* 題名 */
+
+.grid-6 a {
+  text-decoration: none;
+  color:black;
+  font-size: 70px;
+  margin-bottom: 1px;
+}
+
+
+
+.dai{
+
+  color:yellow
+  
+}
+
+.user_nav a {
+  color:black;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+
+
+.user_nav {
+  
+  text-align: center;
+  width: 170px;
+  justify-content: flex-end;
+  margin-left:80%;
+  margin-right:10%;
+}
+/* 投稿する */
+
+.contents{
+  padding: 20px;
+  text-align: left;
+  background-color: #CCFFFF;
+  margin-bottom: 30px;
+}
+
+.content_post{
+  margin-bottom: 60px;
+}
+
+.box13 {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: black;
+  background: #FFFFCC;
+  border-bottom: solid 6px #3f87ce;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+}
+.box13 p {
+  margin: 0; 
+  padding: 0;
+}
+
+.box12{
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #5989cf;
+  background: #c6e4ff;
+  border-bottom: solid 6px #aac5de;
+  border-radius: 9px;
+  
+}
+.box12 p {
+  margin: 0; 
+  padding: 0;
+  margin-left: 1000px;
+}
+
+.post {
+  width: 30px;
+
+
+}
+
+
+
+.genba{
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  }
+
+  .date{
+   
+  text-decoration : underline;
+  }
+  
+
+ .kanji{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: white;
+    background:#75A9FF;/*背景色*/
+    align-items: left;
+}
+
+.prefecture_id{
+  display: flex;
+  width: 76%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+  
+.adress{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.gyoumu{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.hyouka{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.g_date{
+  text-align: center;
+
+}
+
+
+
+.Nickname{
+  display: block;
+
+}
+
+.container{
+  display: block;
+  background-color: blue;
+  text-align: center;
+
+
+}
+
+
+
+.text_field{
+  width: 100px;
+}
+
+
+.form{
+  width: 200px;
+}
+ 
+ 
+
+ 
+  
+
+

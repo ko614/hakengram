@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <link href="https://fonts.googleapis.com/css?family=Corben:700 rel="stylesheet">
+    <title class="dai">Hakengram</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+    <header class="header">
+      <div class="header__bar row">
+        <h1 class="grid-6"><a href="/">Hakengram</a></h1>
+        <div class="user_nav">
+          <div class="box12">
+           <a class="post" href="/staffs/new">投稿する</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <%= yield %>
+    <footer>
+      <p>
+        Copyright PicTweet 2019.
+      </p>
+    </footer>
+  </body>
+</html>
